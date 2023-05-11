@@ -18,14 +18,21 @@
             vertical-align: middle;
         }
 
-        .white {
+        tr.odd td:nth-child(even) {
             background-color: white;
         }
 
-        .black {
+        tr.odd td:nth-child(odd) {
             background-color: black;
         }
 
+        tr.even td:nth-child(even) {
+            background-color: black;
+        }
+
+        tr.even td:nth-child(odd) {
+            background-color: white;
+        }
     </style>
 </head>
 
@@ -46,98 +53,100 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="odd">
                 <th>A</th>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="even">
                 <th>B</th>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="odd">
                 <th>C</th>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="even">
                 <th>D</th>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="odd">
                 <th>E</th>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="even">
                 <th>F</th>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="odd">
                 <th>G</th>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="even">
                 <th>H</th>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                <td class="black"></td>
-                <td class="white"></td>
-                
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
             </tr>
         </tbody>
         <tfoot>
-            <tr><td></td></tr>
+            <tr>
+                <td></td>
+            </tr>
         </tfoot>
     </table>
 </body>
