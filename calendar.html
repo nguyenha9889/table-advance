@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,58 +7,48 @@
     <title>Lịch tháng 10/2009</title>
     <style>
         body {
+            font-size: 100%;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 17px;
         }
 
         h2 {
-            color: blue;
             text-align: center;
+            color: blue;
         }
 
         table {
             margin: auto;
             border-collapse: collapse;
-
-        }
-
-        thead tr th {
-            background-color: rgb(255, 187, 0);
-            color: white;
-        }
-
-        thead tr th,
-        td {
-            border-left: 2px solid #fff;
-            border-right: 2px solid #fff;
             text-align: center;
-            padding: 8px 18px;
         }
 
-        tbody tr td {
-            border: 2px double #cacaca;
-            padding: 10px 15px;
-            font-family: Cambria, Georgia, 'Times New Roman', serif;
-            font-size: 20px;
-        }
-
-        sub {
-            color: black;
-        }
-
-        .bg-red {
+        thead tr th:first-child {
             background-color: red;
-        }
 
-        .bg-blue {
+        }
+        thead tr th {
+            background-color: rgb(255, 145, 0);
+            padding: 5px 15px;
+            color: white;
+            border: 1px solid white;
+        }
+        thead tr th:last-child {
             background-color: blue;
         }
 
-        .red {
-            color: red;
+        thead tr:last-child td {
+            font-weight: 500;
+            padding: 5px;
         }
 
-        .blue {
+        tbody tr td {
+            border: 2px solid #d6d6d6;
+            font: 20px Cambria, Georgia, Times, 'Times New Roman', serif;
+        }
+        tbody tr td:first-child {
+            color: red;
+        }
+        tbody tr td:last-child {
             color: blue;
         }
     </style>
@@ -70,22 +59,22 @@
     <table>
         <thead>
             <tr>
-                <th class="bg-red">C.Nhật</th>
+                <th>C.Nhật</th>
                 <th>T.Hai</th>
                 <th>T.Ba</th>
                 <th>T.Tư</th>
                 <th>T.Năm</th>
                 <th>T.Sáu</th>
-                <th class="bg-blue">T.Bảy</th>
+                <th>T.Bảy</th>
             </tr>
             <tr>
-                <td class="red">Sun</td>
+                <td>Sun</td>
                 <td>Mon</td>
                 <td>Tue</td>
                 <td>Wed</td>
                 <td>Thu</td>
                 <td>Fri</td>
-                <td class="blue">Sat</td>
+                <td>Sat</td>
             </tr>
         </thead>
         <tbody>
@@ -96,46 +85,45 @@
                 <td></td>
                 <td>1<sub>13</sub></td>
                 <td>2<sub>14</sub></td>
-                <td class="blue">3<sub>15</sub></td>
+                <td>3<sub>15</sub></td>
             </tr>
             <tr>
-                <td class="red">4<sub>16</sub></td>
+                <td>4<sub>16</sub></td>
                 <td>5<sub>17</sub></td>
                 <td>6<sub>18</sub></td>
                 <td>7<sub>19</sub></td>
                 <td>8<sub>20</sub></td>
                 <td>9<sub>21</sub></td>
-                <td class="blue">10<sub>22</sub></td>
+                <td>10<sub>22</sub></td>
             </tr>
             <tr>
-                <td class="red">11<sub>23</sub></td>
+                <td>11<sub>23</sub></td>
                 <td>12<sub>24</sub></td>
                 <td>13<sub>25</sub></td>
                 <td>14<sub>26</sub></td>
                 <td>15<sub>27</sub></td>
                 <td>16<sub>28</sub></td>
-                <td class="blue">17<sub>29</sub></td>
+                <td>17<sub>29</sub></td>
             </tr>
             <tr>
-                <td class="red">18<sub>1/9</sub></td>
+                <td>18<sub>1/9</sub></td>
                 <td>19<sub>2</sub></td>
                 <td>20<sub>3</sub></td>
                 <td>21<sub>4</sub></td>
                 <td>22<sub>5</sub></td>
                 <td>23<sub>6</sub></td>
-                <td class="blue">24<sub>7</sub></td>
+                <td>24<sub>7</sub></td>
             </tr>
             <tr>
-                <td class="red">25<sub>8</sub></td>
+                <td>25<sub>8</sub></td>
                 <td>26<sub>9</sub></td>
                 <td>27<sub>10</sub></td>
                 <td>28<sub>11</sub></td>
                 <td>29<sub>12</sub></td>
                 <td>30<sub>13</sub></td>
-                <td class="blue">31<sub>14</sub></td>
+                <td>31<sub>14</sub></td>
             </tr>
         </tbody>
     </table>
 </body>
-
 </html>
